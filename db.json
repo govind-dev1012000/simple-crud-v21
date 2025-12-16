@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John",
+      "email": "john@test.cm"
+    },
+    {
+      "id": "2",
+      "name": "Jane",
+      "email": "jane@test.com"
+    },
+    {
+      "id": "f769",
+      "name": "heelo",
+      "email": "allll"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Learn NgRx",
+      "completed": false
+    }
+  ]
+}

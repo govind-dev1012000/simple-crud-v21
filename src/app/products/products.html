@@ -1,0 +1,12 @@
+<p>products works!</p>
+<button (click)="loadData()">Get Data</button>
+
+    @if (data) {
+      <pre>{{ data }}</pre>
+    }
+
+    <button (click)="loadProducts()">Get Products</button>
+
+    @if (products) {
+      <pre>{{ products }}</pre>
+    }

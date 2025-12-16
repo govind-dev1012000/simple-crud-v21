@@ -1,0 +1,18 @@
+<p>users works!</p>
+<h2>Users CRUD</h2>
+
+    <input [(ngModel)]="user.name" placeholder="Name">
+    <input [(ngModel)]="user.email" placeholder="Email">
+    <button (click)="saveUser()">
+      {{ user.id ? 'Update' : 'Add' }}
+    </button>
+
+    <hr>
+
+    @for (u of users; track u.id) {
+      <p>
+        {{ u.name }} - {{ u.email }}
+        <button (click)="editUser(u)">Edit</button>
+        <button (click)="deleteUser(u.id!)">Delete</button>
+      </p>
+    }
